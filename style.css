@@ -1,0 +1,232 @@
+
+ body{
+    background:#ffffff;
+ }
+ .nav-items{
+    color: rgb(187, 22, 22);
+    justify-content: center;
+    display: flex;
+    margin-top: -80px;
+    justify-content: space-around;
+    margin-right: 580px;
+    margin-left: 580px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    
+}
+nav{
+font-weight: bolder;
+}
+.action-btn{
+    color: rgb(218, 22, 22);
+    background-color:#fe5e35;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    /* float: left; */
+    margin: 10px;
+
+}
+.action-btns{
+    
+    margin-bottom: -20px;
+}
+.last-buttn{
+float: right;
+margin-right: 240px;
+
+}
+.ring{
+    display: flex;
+    font-size: 40px;
+    /* margin-left: 60px;  */
+}
+.left-section{
+    margin-left: 60px;
+}
+h1{
+    font-size: 65px;
+    font-weight: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0,0,0);
+}
+.headphone-div{
+   position: absolute;
+    top : 110px;
+    right : 200px; 
+}
+.disc{
+   position: absolute;
+    top: 180px;
+    right: 210px;
+    color: white;
+
+}
+.dis{
+    position: absolute;
+    top: 180px;
+    right:240px ;
+    color: white;
+ 
+}
+.discount{
+    position: absolute;
+    top: 170px;
+    right: 200px;
+}
+.sub-headline{
+    font-size: 30px; 
+}
+.action-btnn{
+    
+    color: rgb(218, 22, 22);
+    background-color:#fe5e35;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+.logo{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.dots{
+    position: absolute;
+    right: 50px;
+}
+.actn{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+           /******************** media query *****************/
+@media(max-width:1225px){
+    .headphone-div img{
+        height: 250px;
+        width: 170px;
+       
+        
+    }
+.left-section h1{
+        font-size: 40px;
+        }
+.headphone-disc-d img{
+    height: 70px;
+    width: 60px;
+    right: 120px;
+}
+.action-btnn{
+    position: relative;
+    bottom: 20px;
+}
+}
+ 
+ 
+
+
+
+@media(max-width:996px) {
+  
+.logo {
+        height: 30px;
+        position: relative;
+        top: 7px;
+    
+}
+.nav-items{
+   display: none;
+}
+.main-main{
+    position: relative;
+     top: 170px;
+ }
+ .headphone-div img{
+    height: 190px;
+    width: 135px;
+    position: relative;
+    bottom: 380px;
+    right: 150px;
+}
+.headphone-disc-d img{
+    position: relative;
+    top: -210px;
+    left: -165px;
+    z-index: 2;
+    height: 70px;
+    width: 50px;
+
+}
+.action-btnn{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+ }
+
+
+
+ @media(max-width:605px) {
+    .logo {
+        height: 20px;
+    
+    }
+    .nav-items{
+        display: none;
+    }
+    .main-main{
+       position: relative;
+        top: 170px;
+    }
+    .headphone-div img{
+        height: 200px;
+        width: 160px;
+        position: relative;
+        bottom: 370px;
+        left: 30px;
+    }
+    .headphone-disc-d img{
+    height: 80px;
+    width: 50px;
+    z-index: 2;
+    position: relative;
+    left: -10px;
+    }
+    .headphone-disc-d{
+        position: relative;
+        
+        bottom: 350px;
+    }
+    .discount-content {
+         color: black;
+        position: relative;
+        left: 3px; 
+        /* z-index: 3; */
+    }
+    .action-btnn {
+        position: relative;
+        bottom: -25px;
+        left: 30px;
+    
+        
+    }
+    
+    .left-section h1{
+    font-size: 30px;
+    }
+    .left-section h3{
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    }
+    .textt pre {
+        font-size: 7px;
+    }
+    .sub-headlines h5{
+        font-size: 15px;
+    }
+     }        
+     
+     
+     
